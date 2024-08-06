@@ -1,4 +1,4 @@
-# classwork-string-manipulation
+# Assignment-string-manipulation
 
 ## 1. Pirate Treasure Map
 
