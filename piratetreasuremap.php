@@ -9,17 +9,10 @@
 </body>
 <?php
     $clue = "find the hidden treasure at the golden island";
-    echo $clue;
-    $arr = explode(" ",$clue);
-    echo "<br>";
-    $i=0;
-    foreach ($arr as $key => $value) {
-        if($value=="golden"){
-            $arr[$i] = "mystic";
-        }
-        $i++;
-    }
-    $result = implode(" ",$arr);
+    echo $clue."<br>";
+    $find = "golden";
+    $replace = "mystic";
+    $result = str_replace($find,$replace,$clue);
     echo strtoupper($result);
 ?>
 </html>
